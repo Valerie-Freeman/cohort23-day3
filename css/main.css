@@ -1,0 +1,61 @@
+body {
+    background-color: darkcyan;
+}
+
+nav {
+    background-color: orange;
+    height: 3em;
+}
+nav li{
+    float: left;
+    list-style-type: none;
+    margin: .5em 1em 0 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li a {
+    color: lightslategray;
+}
+
+nav li a:hover {
+    color: black;
+}
+
+.page {
+    display: flex;
+}
+
+main {
+    width: 70%;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    float: right;
+}
+
+.container {
+    background-color: wheat;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bigimage {
+    width: 100%;
+}
+
+h1, h2, h3 {
+    color: darkred;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: beige;
+    color: purple;
+    text-align: center;
+    clear: both;
+}
